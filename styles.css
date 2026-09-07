@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero__section {
+  width: 100%;
+}
+.hero__section img {
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+}
