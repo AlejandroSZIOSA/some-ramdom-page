@@ -4,21 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/globals.css" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header><h1>header</h1></header>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Hem</a></li>
+          <li><a href="#om">Om</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <section class="hero__section">
+      <section id="#hem" class="hero__section">
         <img
           src="./assets/negative-space-black-forest-dawn.jpg"
           alt="A black forest at dawn with negative space"
         />
+        <div class="hero-content__container">
+          <h1>Welcome to the Black Forest</h1>
+          <h2>Experience the serene beauty of the forest at dawn.</h2>
+        </div>
+        <a href="#om">
+          <img
+            src="./assets/ui/arrow-icon-white.png"
+            alt="A black forest at dawn with negative space"
+          />
+        </a>
       </section>
-      <section class="test"></section>
-      <section></section>
+      <section id="om" class="about__section">
+        <h2>About Team</h2>
+        <div>
+          <div class="card__containers">
+            <h3>Rabik</h3>
+            <img
+              src="./assets/profiles/Rakib_Square.png"
+              alt="A portrait of Rabik"
+            />
+            <article>
+              <p>
+                "The Black Forest is a large forested mountain range in
+                southwest Germany, known for its dense woods, picturesque
+                villages, and
+              </p>
+            </article>
+          </div>
+          <div class="card__containers">
+            <h3>Alexandra</h3>
+            <img
+              src="./assets/profiles/Alexandra_Square.png"
+              alt="A portrait of Alexandra"
+            />
+            <article>
+              <p>
+                "The Black Forest is a large forested mountain range in
+                southwest Germany, known for its dense woods, picturesque
+                villages, and
+              </p>
+            </article>
+          </div>
+          <div class="card__containers">
+            <h3>Lase</h3>
+            <img
+              src="./assets/profiles/NoPerson_Square.png"
+              alt="A portrait of Alexandra"
+            />
+            <article>
+              <p>
+                "The Black Forest is a large forested mountain range in
+                southwest Germany, known for its dense woods, picturesque
+                villages, and
+              </p>
+            </article>
+          </div>
+          <div class="card__containers">
+            <h3>Sebastian</h3>
+            <img
+              src="./assets/profiles/Sebastian_Square.png"
+              alt="A portrait of Alexandra"
+            />
+            <article>
+              <p>
+                "The Black Forest is a large forested mountain range in
+                southwest Germany, known for its dense woods, picturesque
+                villages, and
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="about-icon__container">
+        <a href="#contact">
+          <img src="./assets/ui/arrow-icon-black.png" alt="Black arrow icon" />
+        </a>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer id="#contact">
+      <article>
+        <p>Tegel Consulting AB</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Email: contact@example.com</p>
+      </article>
+      <article>
+        <p>Tegel Consulting AB</p>
+        <p>Phone: +123 456 7890</p>
+      </article>
+      <section class="social-media__section">
+        <div>
+          <img />
+          <p>Instagram</p>
+        </div>
+        <div>
+          <img
+            src="./assets/ui/twitter-icon.png"
+            alt="White Twitter icon"
+            fill="red"
+          />
+          <span>Twitter</span>
+        </div>
+        <div>
+          <img />
+          <p>Facebook</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
