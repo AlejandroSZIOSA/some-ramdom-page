@@ -1,5 +1,6 @@
 /* NOTE:Mobile first, for 360px * 740px
  */
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +36,6 @@ header nav ul {
 
 .hero__section {
   position: relative;
-  /*  width: 360px; */
 }
 
 .hero__section > img {
