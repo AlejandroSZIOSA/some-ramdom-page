@@ -42,12 +42,16 @@ header nav ul {
   object-fit: cover;
 }
 
-.hero__section a img {
+.hero__section a {
+  display: inline-block;
   position: absolute;
-  width: 24px;
-  height: 24px;
   right: 50%;
   bottom: 7%;
+}
+
+.hero__section a img {
+  width: 24px;
+  height: 24px;
 }
 
 .hero-content__container {
@@ -103,7 +107,7 @@ header nav ul {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.about-row-icon__container {
+.about-icon__container {
   display: flex;
   justify-content: center;
   align-items: center;
