@@ -173,7 +173,7 @@ footer section div {
 
   .hero__section > img {
     width: 100%;
-    height: auto;
+    height: 100vh;
   }
 
   .arrow-icon__img {
@@ -218,8 +218,8 @@ footer section div {
   }
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .hero__section > img {
-    height: 1000px;
+    height: 100vh;
   }
-}
+} */
