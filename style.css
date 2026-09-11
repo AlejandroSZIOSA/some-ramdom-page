@@ -103,11 +103,12 @@ header nav ul {
 .card__containers article {
   border-radius: 8px;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #d1d1d1;
 }
 
 .card__containers p {
   text-align: left;
+  font-weight: 500;
 }
 
 .about-arrow-icon__container {
@@ -165,6 +166,7 @@ footer section div {
 
   header nav ul {
     justify-content: flex-end;
+    margin-right: 2rem;
   }
 
   .hero-content__container {
